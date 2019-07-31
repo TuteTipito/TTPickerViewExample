@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TTPickerView" customModule="TTPickerViewExample" customModuleProvider="target">
+            <connections>
+                <outlet property="backgroundView" destination="sAi-it-qvW" id="ePR-ey-mWf"/>
+                <outlet property="pickerView" destination="Sm8-Ir-gTt" id="a73-yd-4L2"/>
+                <outlet property="transparentView" destination="Gei-eU-q3l" id="OWD-6y-WWl"/>
+                <outlet property="view" destination="iN0-l3-epB" id="zRh-8v-q2C"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.40000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gei-eU-q3l">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sAi-it-qvW">
+                    <rect key="frame" x="10" y="308" width="300" height="250"/>
+                    <subviews>
+                        <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sm8-Ir-gTt">
+                            <rect key="frame" x="0.0" y="37" width="300" height="213"/>
+                        </pickerView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FLr-W5-E3p">
+                            <rect key="frame" x="20" y="2" width="68" height="33"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <state key="normal" title="Cancelar"/>
+                            <connections>
+                                <action selector="cancelButtonPressed:" destination="-1" eventType="touchUpInside" id="YMD-p6-aBD"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VW8-TF-q8y">
+                            <rect key="frame" x="190" y="2" width="90" height="33"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <state key="normal" title="Seleccionar"/>
+                            <connections>
+                                <action selector="selectedButtonPressed:" destination="-1" eventType="touchUpInside" id="qtb-Xm-I1A"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="Sm8-Ir-gTt" firstAttribute="top" secondItem="FLr-W5-E3p" secondAttribute="bottom" constant="2" id="6Bx-J1-rgo"/>
+                        <constraint firstItem="Sm8-Ir-gTt" firstAttribute="top" secondItem="VW8-TF-q8y" secondAttribute="bottom" constant="2" id="9R0-8Z-0xf"/>
+                        <constraint firstAttribute="height" constant="250" id="BmL-BD-LjD"/>
+                        <constraint firstAttribute="bottom" secondItem="Sm8-Ir-gTt" secondAttribute="bottom" id="Dh4-1T-g2j"/>
+                        <constraint firstItem="VW8-TF-q8y" firstAttribute="top" secondItem="sAi-it-qvW" secondAttribute="top" constant="2" id="G68-iH-cTB"/>
+                        <constraint firstAttribute="trailing" secondItem="VW8-TF-q8y" secondAttribute="trailing" constant="20" id="GDH-VN-TX6"/>
+                        <constraint firstItem="FLr-W5-E3p" firstAttribute="leading" secondItem="sAi-it-qvW" secondAttribute="leading" constant="20" id="Tf7-MT-poY"/>
+                        <constraint firstItem="FLr-W5-E3p" firstAttribute="top" secondItem="sAi-it-qvW" secondAttribute="top" constant="2" id="c73-zj-F5F"/>
+                        <constraint firstItem="Sm8-Ir-gTt" firstAttribute="leading" secondItem="sAi-it-qvW" secondAttribute="leading" id="mqh-dG-N6i"/>
+                        <constraint firstAttribute="trailing" secondItem="Sm8-Ir-gTt" secondAttribute="trailing" id="uWC-MT-BFi"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="sAi-it-qvW" secondAttribute="bottom" constant="10" id="009-pr-uxF"/>
+                <constraint firstItem="Gei-eU-q3l" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="A9w-6G-rTL"/>
+                <constraint firstAttribute="bottom" secondItem="Gei-eU-q3l" secondAttribute="bottom" id="Mjz-R6-q5D"/>
+                <constraint firstAttribute="trailing" secondItem="Gei-eU-q3l" secondAttribute="trailing" id="QnZ-Dk-lyd"/>
+                <constraint firstAttribute="trailing" secondItem="sAi-it-qvW" secondAttribute="trailing" constant="10" id="clr-dJ-EhF"/>
+                <constraint firstItem="sAi-it-qvW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="gZm-mM-8tz"/>
+                <constraint firstItem="Gei-eU-q3l" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="pSr-vG-k0t"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="54.5"/>
+        </view>
+    </objects>
+</document>

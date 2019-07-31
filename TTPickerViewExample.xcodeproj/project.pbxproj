@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		007D53151F3A86880078ABAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D53141F3A86880078ABAF /* AppDelegate.swift */; };
+		007D53171F3A86880078ABAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D53161F3A86880078ABAF /* ViewController.swift */; };
+		007D531A1F3A86880078ABAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007D53181F3A86880078ABAF /* Main.storyboard */; };
+		007D531C1F3A86880078ABAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 007D531B1F3A86880078ABAF /* Assets.xcassets */; };
+		007D531F1F3A86880078ABAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007D531D1F3A86880078ABAF /* LaunchScreen.storyboard */; };
+		007D532E1F3A87A20078ABAF /* TTSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007D532C1F3A87A20078ABAF /* TTSplash.storyboard */; };
+		007D532F1F3A87A20078ABAF /* TTSplashAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 007D532D1F3A87A20078ABAF /* TTSplashAssets.xcassets */; };
+		007D53311F3A89680078ABAF /* TTPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D53301F3A89680078ABAF /* TTPickerView.swift */; };
+		007D53331F3A897A0078ABAF /* TTPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 007D53321F3A897A0078ABAF /* TTPickerView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		007D53111F3A86880078ABAF /* TTPickerViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTPickerViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		007D53141F3A86880078ABAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		007D53161F3A86880078ABAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		007D53191F3A86880078ABAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		007D531B1F3A86880078ABAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		007D531E1F3A86880078ABAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		007D53201F3A86880078ABAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		007D532C1F3A87A20078ABAF /* TTSplash.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = TTSplash.storyboard; path = TTSplash/TTSplash.storyboard; sourceTree = SOURCE_ROOT; };
+		007D532D1F3A87A20078ABAF /* TTSplashAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = TTSplashAssets.xcassets; path = TTSplash/TTSplashAssets.xcassets; sourceTree = SOURCE_ROOT; };
+		007D53301F3A89680078ABAF /* TTPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TTPickerView.swift; path = TTPickerView/TTPickerView.swift; sourceTree = SOURCE_ROOT; };
+		007D53321F3A897A0078ABAF /* TTPickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TTPickerView.xib; path = TTPickerView/TTPickerView.xib; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		007D530E1F3A86880078ABAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		007D53081F3A86880078ABAF = {
+			isa = PBXGroup;
+			children = (
+				007D53131F3A86880078ABAF /* TTPickerViewExample */,
+				007D53121F3A86880078ABAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		007D53121F3A86880078ABAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				007D53111F3A86880078ABAF /* TTPickerViewExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		007D53131F3A86880078ABAF /* TTPickerViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				007D53141F3A86880078ABAF /* AppDelegate.swift */,
+				007D53161F3A86880078ABAF /* ViewController.swift */,
+				007D532B1F3A870F0078ABAF /* TTPickerView */,
+				007D53181F3A86880078ABAF /* Main.storyboard */,
+				007D53261F3A86CB0078ABAF /* TTSplash */,
+				007D531B1F3A86880078ABAF /* Assets.xcassets */,
+				007D531D1F3A86880078ABAF /* LaunchScreen.storyboard */,
+				007D53201F3A86880078ABAF /* Info.plist */,
+			);
+			path = TTPickerViewExample;
+			sourceTree = "<group>";
+		};
+		007D53261F3A86CB0078ABAF /* TTSplash */ = {
+			isa = PBXGroup;
+			children = (
+				007D532C1F3A87A20078ABAF /* TTSplash.storyboard */,
+				007D532D1F3A87A20078ABAF /* TTSplashAssets.xcassets */,
+			);
+			name = TTSplash;
+			sourceTree = "<group>";
+		};
+		007D532B1F3A870F0078ABAF /* TTPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				007D53301F3A89680078ABAF /* TTPickerView.swift */,
+				007D53321F3A897A0078ABAF /* TTPickerView.xib */,
+			);
+			name = TTPickerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		007D53101F3A86880078ABAF /* TTPickerViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 007D53231F3A86880078ABAF /* Build configuration list for PBXNativeTarget "TTPickerViewExample" */;
+			buildPhases = (
+				007D530D1F3A86880078ABAF /* Sources */,
+				007D530E1F3A86880078ABAF /* Frameworks */,
+				007D530F1F3A86880078ABAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTPickerViewExample;
+			productName = TTPickerViewExample;
+			productReference = 007D53111F3A86880078ABAF /* TTPickerViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		007D53091F3A86880078ABAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Matías Spinelli";
+				TargetAttributes = {
+					007D53101F3A86880078ABAF = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 4PK8BH6D6G;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 007D530C1F3A86880078ABAF /* Build configuration list for PBXProject "TTPickerViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 007D53081F3A86880078ABAF;
+			productRefGroup = 007D53121F3A86880078ABAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				007D53101F3A86880078ABAF /* TTPickerViewExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		007D530F1F3A86880078ABAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				007D531F1F3A86880078ABAF /* LaunchScreen.storyboard in Resources */,
+				007D531C1F3A86880078ABAF /* Assets.xcassets in Resources */,
+				007D531A1F3A86880078ABAF /* Main.storyboard in Resources */,
+				007D532F1F3A87A20078ABAF /* TTSplashAssets.xcassets in Resources */,
+				007D53331F3A897A0078ABAF /* TTPickerView.xib in Resources */,
+				007D532E1F3A87A20078ABAF /* TTSplash.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		007D530D1F3A86880078ABAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				007D53311F3A89680078ABAF /* TTPickerView.swift in Sources */,
+				007D53171F3A86880078ABAF /* ViewController.swift in Sources */,
+				007D53151F3A86880078ABAF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		007D53181F3A86880078ABAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				007D53191F3A86880078ABAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		007D531D1F3A86880078ABAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				007D531E1F3A86880078ABAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		007D53211F3A86880078ABAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		007D53221F3A86880078ABAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		007D53241F3A86880078ABAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4PK8BH6D6G;
+				INFOPLIST_FILE = TTPickerViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matiasspinelli.TTPickerViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		007D53251F3A86880078ABAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4PK8BH6D6G;
+				INFOPLIST_FILE = TTPickerViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matiasspinelli.TTPickerViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		007D530C1F3A86880078ABAF /* Build configuration list for PBXProject "TTPickerViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				007D53211F3A86880078ABAF /* Debug */,
+				007D53221F3A86880078ABAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		007D53231F3A86880078ABAF /* Build configuration list for PBXNativeTarget "TTPickerViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				007D53241F3A86880078ABAF /* Debug */,
+				007D53251F3A86880078ABAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 007D53091F3A86880078ABAF /* Project object */;
+}
